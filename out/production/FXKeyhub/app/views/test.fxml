@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="969.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane style="-fx-background-radius: 10;" styleClass="Main" stylesheets="@../utils/fullpackstyling.css">
+            <children>
+                <VBox fx:id="menu" prefHeight="530.0" prefWidth="207.0">
+                    <children>
+                        <ImageView fitHeight="107.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../imgs/logo1.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="42.0" fitWidth="171.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../imgs/nomlog.png" />
+                            </image>
+                        </ImageView>
+                        <GridPane fx:id="gridPane" maxWidth="-Infinity" prefHeight="137.0" prefWidth="207.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <JFXButton fx:id="Acceuil" prefHeight="25.0" prefWidth="233.0" stylesheets="@../utils/fullpackstyling.css" text="Acceuil">
+                                    <graphic>
+                                        <ImageView fitHeight="20.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../imgs/icons8_home_32px_2.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </JFXButton>
+                                <JFXButton fx:id="Clients" prefHeight="28.0" prefWidth="208.0" stylesheets="@../utils/fullpackstyling.css" text="Clients" GridPane.rowIndex="1">
+                                    <graphic>
+                                        <ImageView fitHeight="20.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../imgs/icons8_customer_32px.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </JFXButton>
+                                <JFXButton fx:id="Produits" prefHeight="25.0" prefWidth="214.0" stylesheets="@../utils/fullpackstyling.css" text="Produits" GridPane.rowIndex="2">
+                                    <graphic>
+                                        <ImageView fitHeight="20.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../imgs/icons8_product_30px.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </JFXButton>
+                                <JFXButton fx:id="Commandes" prefHeight="25.0" prefWidth="212.0" stylesheets="@../utils/fullpackstyling.css" text="Commandes" GridPane.rowIndex="3">
+                                    <graphic>
+                                        <ImageView fitHeight="20.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../imgs/icons8_shopping_cart_32px.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </JFXButton>
+                        <JFXButton fx:id="print" prefHeight="17.0" prefWidth="206.0" stylesheets="@../utils/fullpackstyling.css" text="Imprimer" GridPane.rowIndex="4">
+                           <graphic>
+                              <ImageView fitHeight="20.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/icons8-print-50.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                                <JFXButton fx:id="logOut" prefHeight="43.0" prefWidth="206.0" stylesheets="@../utils/fullpackstyling.css" text="Log Out" GridPane.rowIndex="5">
+                                    <graphic>
+                                        <ImageView fitHeight="20.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../imgs/icons8-export-26.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </JFXButton>
+                            </children>
+                            <VBox.margin>
+                                <Insets top="30.0" />
+                            </VBox.margin>
+                        </GridPane>
+                        <Pane prefHeight="164.0" prefWidth="207.0">
+                            <children>
+                                <Circle fx:id="shpActive" fill="WHITE" layoutX="53.0" layoutY="72.0" radius="7.0" stroke="#1cd95c" strokeType="INSIDE" />
+                                <Circle fill="WHITE" layoutX="53.0" layoutY="104.0" radius="7.0" stroke="#d9c81c" strokeType="INSIDE" />
+                                <Circle fill="WHITE" layoutX="53.0" layoutY="134.0" radius="7.0" stroke="#da1c1c" strokeType="INSIDE" />
+                                <Line endX="-4.0" endY="-8.0" layoutX="34.0" layoutY="43.0" startX="148.0" startY="-8.0" stroke="#ddd1d1" />
+                                <Label fx:id="nbLivree" layoutX="77.0" layoutY="65.0" text="10 Livrée" textFill="#4a4747">
+                                    <font>
+                                        <Font size="11.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="nbEnCours" layoutX="77.0" layoutY="96.0" text="6 En Cours" textFill="#4a4747">
+                                    <font>
+                                        <Font size="11.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="nbAnnuler" layoutX="77.0" layoutY="126.0" text="8 Annuler" textFill="#4a4747">
+                                    <font>
+                                        <Font size="11.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <VBox.margin>
+                                <Insets top="60.0" />
+                            </VBox.margin>
+                        </Pane>
+                    </children>
+                </VBox>
+                <Pane fx:id="paneCommandes" layoutX="207.0" prefHeight="530.0" prefWidth="764.0" stylesheets="@../utils/fullpackstyling.css">
+                    <children>
+                        <Pane fx:id="LeftPane" layoutX="14.0" layoutY="15.0" prefHeight="501.0" prefWidth="385.0" stylesheets="@../utils/fullpackstyling.css">
+                            <children>
+                                <TableView fx:id="tableCommandes" layoutX="2.0" layoutY="22.0" prefHeight="454.0" prefWidth="379.0">
+                                    <columns>
+                                        <TableColumn fx:id="idColCommande" minWidth="0.0" prefWidth="32.66667175292969" text="ID" />
+                                        <TableColumn fx:id="clientColCommande" prefWidth="77.99993896484375" text="Client" />
+                                        <TableColumn fx:id="dateColCommande" prefWidth="82.0" text="Date" />
+                                        <TableColumn fx:id="produitColCommande" minWidth="0.0" prefWidth="117.33331298828125" text="Produit(quantite)" />
+                                        <TableColumn fx:id="statusColCommande" minWidth="0.0" prefWidth="67.6666259765625" text="Status" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="paneCommandeRightPane" layoutX="402.0" layoutY="15.0" prefHeight="501.0" prefWidth="355.0">
+                            <children>
+                                <Label layoutX="131.0" layoutY="18.0" text="Modifier Commande" textFill="#cf3a3a">
+                                    <font>
+                                        <Font name="System Bold" size="21.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="14.0" layoutY="67.0" text="Client">
+                                    <font>
+                                        <Font name="System Bold" size="19.0" />
+                                    </font>
+                                </Label>
+                                <JFXTextField fx:id="paneCommandeRightPaneTelephone" editable="false" focusColor="WHITE" layoutX="14.0" layoutY="121.0" prefHeight="25.0" prefWidth="185.0" promptText="Téléphone" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                </JFXTextField>
+                                <JFXTextField fx:id="paneCommandeRightPaneNom" editable="false" focusColor="WHITE" layoutX="14.0" layoutY="168.0" prefHeight="25.0" prefWidth="185.0" promptText="Nom complet" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                </JFXTextField>
+                                <JFXTextField fx:id="paneCommandeRightPaneDateDeNaissance" editable="false" focusColor="WHITE" layoutX="14.0" layoutY="212.0" prefHeight="25.0" prefWidth="185.0" promptText="Date de naissance" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                </JFXTextField>
+                                <JFXRadioButton fx:id="paneCommandeRightPaneGenderH" layoutX="211.0" layoutY="177.0" text="H">
+                                    <toggleGroup>
+                                        <ToggleGroup fx:id="Gender" />
+                                    </toggleGroup>
+                                </JFXRadioButton>
+                                <JFXRadioButton fx:id="paneCommandeRightPaneGenderF" layoutX="285.0" layoutY="177.0" text="F" toggleGroup="$Gender" />
+                                <Label layoutX="14.0" layoutY="288.0" text="Commande">
+                                    <font>
+                                        <Font name="System Bold" size="19.0" />
+                                    </font>
+                                </Label>
+                                <JFXComboBox fx:id="paneCommandeRightPaneNomProduit1" layoutX="19.0" layoutY="318.0" prefHeight="25.0" prefWidth="153.0" promptText="Nom Produit" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css" />
+                                <JFXTextField fx:id="paneCommandeRightPaneQuantite1" focusColor="WHITE" layoutX="183.0" layoutY="316.0" prefHeight="29.0" prefWidth="61.0" promptText="Quantité" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                </JFXTextField>
+
+                                <JFXComboBox fx:id="paneCommandeRightPaneNomProduit2" layoutX="18.0" layoutY="353.0" prefHeight="25.0" prefWidth="153.0" promptText="Nom Produit" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css" />
+                                <JFXTextField fx:id="paneCommandeRightPaneQuantite2" focusColor="WHITE" layoutX="183.0" layoutY="351.0" prefHeight="29.0" prefWidth="61.0" promptText="Quantité" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                </JFXTextField>
+
+
+                                <JFXComboBox fx:id="paneCommandeRightPaneStatus" layoutX="18.0" layoutY="427.0" prefHeight="25.0" prefWidth="141.0" promptText="Status" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css" />
+                                <JFXButton fx:id="paneCommandeRightPaneEnregistrer" layoutX="212.0" layoutY="452.0" prefHeight="35.0" prefWidth="126.0" styleClass="Enregistrer" stylesheets="@../utils/fullpackstyling.css" text="Enregistrer">
+                                    <graphic>
+                                        <ImageView fitHeight="18.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../imgs/icons8_ok_26px.png" />
+                                            </image>
+                                        </ImageView>
+                                    </graphic>
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                </JFXButton>
+                                <JFXComboBox fx:id="paneCommandeRightPaneNomProduit3" layoutX="19.0" layoutY="389.0" prefHeight="25.0" prefWidth="153.0" promptText="Nom Produit" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css" />
+                                <JFXTextField fx:id="paneCommandeRightPaneQuantite3" focusColor="WHITE" layoutX="183.0" layoutY="387.0" prefHeight="29.0" prefWidth="61.0" promptText="Quantité" styleClass="TxtBox" stylesheets="@../utils/fullpackstyling.css">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                </JFXTextField>
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

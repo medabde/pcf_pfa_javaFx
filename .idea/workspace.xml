@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Updated ReadMe" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IntelliJConfiguration">
+    <option name="PROPERTY_FILES">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="REMOVE_NBSP" value="true" />
+    <option name="CREATE_NEW_JSP" value="true" />
+    <option name="KEY_RESOLUTION_TYPE" value="Use all words in label" />
+    <option name="PROMPT_FOR_KEY_PREFIX" value="false" />
+    <option name="LABEL_PART_1" value="&lt;bean:message key=&quot;" />
+    <option name="LABEL_PART_2" value="&quot;/&gt;" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1bUXX2ghb0YcbIOppo4bVxBw6fB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="keyhbfx-master" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/stage/novy-back4" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\medab\Downloads\keyhbfx-master\src\app\views" />
+      <recent name="F:\Dev\Kotlin\FXKeyhub\src\imgs" />
+      <recent name="F:\Dev\Kotlin\FXKeyhub\src\app\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Dev\Kotlin\FXKeyhub\src\app\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="app.Main" />
+      <module name="FXKeyhub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1562508423337" duration="7792000" />
+      <workItem from="1562519914559" duration="10678000" />
+      <workItem from="1562612950658" duration="1339000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated ReadMe">
+      <created>1562569405170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562569405171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21111000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Updated ReadMe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated ReadMe" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="155" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588766827107">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="174" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1588688386540" />
+    <state x="155" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588766827107" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1591065432578">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1591065432578" />
+    <state x="450" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588698130753">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1588698130753" />
+    <state x="426" y="172" key="FileChooserDialogImpl" timestamp="1595154228488">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="-1541" y="139" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1440.860@-1920.0.1280.693" timestamp="1592523012835" />
+    <state x="426" y="172" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1595154228488" />
+    <state x="379" y="136" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1594827856608" />
+    <state width="1380" height="200" key="GridCell.Tab.0.bottom" timestamp="1595001088747">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1237" height="150" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1440.860@-1920.0.1280.693" timestamp="1592523067311" />
+    <state width="1380" height="200" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1595001088747" />
+    <state width="1202" height="134" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594930468715" />
+    <state width="1380" height="200" key="GridCell.Tab.0.center" timestamp="1595001088746">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1237" height="150" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1440.860@-1920.0.1280.693" timestamp="1592523067311" />
+    <state width="1380" height="200" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1595001088746" />
+    <state width="1202" height="134" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594930468715" />
+    <state width="1380" height="200" key="GridCell.Tab.0.left" timestamp="1595001088746">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1237" height="150" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1440.860@-1920.0.1280.693" timestamp="1592523067310" />
+    <state width="1380" height="200" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1595001088746" />
+    <state width="1202" height="134" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594930468714" />
+    <state width="1380" height="200" key="GridCell.Tab.0.right" timestamp="1595001088746">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1237" height="150" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1440.860@-1920.0.1280.693" timestamp="1592523067311" />
+    <state width="1380" height="200" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1595001088746" />
+    <state width="1202" height="134" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594930468715" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589849393371">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589849393371" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1589849393371">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589849393371" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1589849393371">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589849393371" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1589849393371">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589849393371" />
+    <state x="-1742" y="0" key="SettingsEditor" timestamp="1592523020162">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state x="-1742" y="0" key="SettingsEditor/-1920.0.1280.693/0.0.1440.860@-1920.0.1280.693" timestamp="1592523020162" />
+    <state x="200" y="5" key="SettingsEditor/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1589824004269" />
+    <state x="178" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589318475306" />
+    <state x="416" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1595154201068">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="416" y="255" key="com.intellij.ide.util.TipDialog/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1595154201068" />
+    <state x="370" y="202" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1594809679038" />
+    <state x="102" y="126" key="new project wizard" timestamp="1591896819216">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="102" y="126" key="new project wizard/-1920.0.1280.693/0.0.1440.860@0.0.1440.860" timestamp="1591896819216" />
+    <state x="303" y="1" key="search.everywhere.popup" timestamp="1589491611639">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589491611639" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/keyhbfx_master$Main.ic" NAME="Main Coverage Results" MODIFIED="1595001083913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>app.controllers.*</FILTER>
+    </SUITE>
+  </component>
+</project>

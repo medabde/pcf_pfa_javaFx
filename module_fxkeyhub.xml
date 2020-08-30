@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_fxkeyhub" default="compile.module.fxkeyhub">
+  <dirname property="module.fxkeyhub.basedir" file="${ant.file.module_fxkeyhub}"/>
+  
+  <property name="module.jdk.home.fxkeyhub" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.fxkeyhub" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.fxkeyhub" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.fxkeyhub" value="-encoding UTF-8 -source 9 -target 9 ${compiler.args}"/>
+  
+  <property name="fxkeyhub.output.dir" value="${module.fxkeyhub.basedir}/out/production/FXKeyhub"/>
+  <property name="fxkeyhub.testoutput.dir" value="${module.fxkeyhub.basedir}/out/test/FXKeyhub"/>
+  
+  <path id="fxkeyhub.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="fxkeyhub.module.production.classpath">
+    <path refid="${module.jdk.classpath.fxkeyhub}"/>
+    <path refid="library.jfoenix-9.0.8.classpath"/>
+  </path>
+  
+  <path id="fxkeyhub.runtime.production.module.classpath">
+    <pathelement location="${fxkeyhub.output.dir}"/>
+    <path refid="library.jfoenix-9.0.8.classpath"/>
+  </path>
+  
+  <path id="fxkeyhub.module.classpath">
+    <path refid="${module.jdk.classpath.fxkeyhub}"/>
+    <pathelement location="${fxkeyhub.output.dir}"/>
+    <path refid="library.jfoenix-9.0.8.classpath"/>
+  </path>
+  
+  <path id="fxkeyhub.runtime.module.classpath">
+    <pathelement location="${fxkeyhub.testoutput.dir}"/>
+    <pathelement location="${fxkeyhub.output.dir}"/>
+    <path refid="library.jfoenix-9.0.8.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.fxkeyhub">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.fxkeyhub">
+    <patternset refid="excluded.from.module.fxkeyhub"/>
+  </patternset>
+  
+  <path id="fxkeyhub.module.sourcepath">
+    <dirset dir="${module.fxkeyhub.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.fxkeyhub" depends="compile.module.fxkeyhub.production,compile.module.fxkeyhub.tests" description="Compile module FXKeyhub"/>
+  
+  <target name="compile.module.fxkeyhub.production" depends="register.custom.compilers" description="Compile module FXKeyhub; production classes">
+    <mkdir dir="${fxkeyhub.output.dir}"/>
+    <javac2 destdir="${fxkeyhub.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.fxkeyhub}/javac">
+      <compilerarg line="${compiler.args.fxkeyhub}"/>
+      <bootclasspath refid="fxkeyhub.module.bootclasspath"/>
+      <classpath refid="fxkeyhub.module.production.classpath"/>
+      <src refid="fxkeyhub.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.fxkeyhub"/>
+    </javac2>
+    
+    <copy todir="${fxkeyhub.output.dir}">
+      <fileset dir="${module.fxkeyhub.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.fxkeyhub.tests" depends="register.custom.compilers,compile.module.fxkeyhub.production" description="compile module FXKeyhub; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.fxkeyhub" description="cleanup module">
+    <delete dir="${fxkeyhub.output.dir}"/>
+    <delete dir="${fxkeyhub.testoutput.dir}"/>
+  </target>
+</project>

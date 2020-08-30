@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="969.0" style="-fx-background-color: #b4dbd3;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controllers.HomePageController">
+   <children>
+      <Pane fx:id="homePane">
+      <Pane prefHeight="70.0" prefWidth="969.0" style="-fx-background-color: #07AD8C;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="130.0">
+               <image>
+                  <Image url="@../../imgs/IMG-20200424-WA0050-removebg-preview1.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutY="440.0" prefHeight="90.0" prefWidth="969.0" style="-fx-background-color: #07AD8C;">
+         <effect>
+            <DropShadow />
+         </effect></Pane>
+      <Pane id="leftpane" layoutY="70.0" prefHeight="372.0" prefWidth="969.0" styleClass="leftbox" stylesheets="@../../css/app.css">
+         <children>
+            <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="218.0" layoutY="83.0">
+               <image>
+                  <Image url="@../../imgs/baseline_account_circle_black_48dp.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="produits" layoutX="618.0" layoutY="235.0" prefHeight="39.0" prefWidth="111.0" style="-fx-background-color: #07AD8C;" text="Products" />
+            <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="614.0" layoutY="102.0">
+               <image>
+                  <Image url="@../../imgs/icons8-new-product-96.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="login" layoutX="223.0" layoutY="235.0" prefHeight="39.0" prefWidth="111.0" style="-fx-background-color: #07AD8C;" text="Account" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+      </Pane>
+      <Pane fx:id="loginPane">
+         <Pane prefHeight="70.0" prefWidth="1010.0" style="-fx-background-color: #07AD8C;" />
+         <Pane layoutY="508.0" prefHeight="70.0" prefWidth="1010.0" style="-fx-background-color: #07AD8C;" />
+         <Pane layoutY="70.0" prefHeight="439.0" prefWidth="399.0" style="-fx-background-color: #C0C0C0;">
+            <children>
+               <ImageView fitHeight="186.0" fitWidth="247.0" layoutX="76.0" layoutY="80.0">
+                  <image>
+                     <Image url="@../../imgs/IMG-20200424-WA0050-removebg-preview1.png" />
+                  </image>
+               </ImageView>
+               <Text layoutX="118.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Put Client First" textAlignment="CENTER" wrappingWidth="162.13671875">
+                  <font>
+                     <Font name="SansSerif Regular" size="20.0" />
+                  </font>
+               </Text>
+            </children>
+         </Pane>
+         <AnchorPane layoutX="399.0" layoutY="70.0" prefHeight="439.0" prefWidth="610.0">
+            <children>
+               <ImageView fitHeight="128.0" fitWidth="162.0" layoutX="224.0" layoutY="14.0">
+                  <image>
+                     <Image url="@../../imgs/377-3772207_login-icon-profile-fa-user-circle-o.png" />
+                  </image>
+               </ImageView>
+               <Text layoutX="278.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                  <font>
+                     <Font size="22.0" />
+                  </font>
+               </Text>
+               <TextField fx:id="username" layoutX="231.0" layoutY="211.0" promptText="username" style="-fx-background-color: transparent; -fx-border-color: #07AD8C; -fx-border-width: 0px 0px 2px 0px;" />
+               <PasswordField fx:id="password" layoutX="231.0" layoutY="257.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #07AD8C; -fx-border-width: 0px 0px 2px 0px;" />
+               <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="206.0" layoutY="215.0">
+                  <image>
+                     <Image url="@../../imgs/baseline_perm_identity_black_18dp.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="206.0" layoutY="261.0">
+                  <image>
+                     <Image url="@../../imgs/baseline_https_black_18dp.png" />
+                  </image>
+               </ImageView>
+               <JFXButton fx:id="login1" layoutX="216.0" layoutY="326.0" prefHeight="30.0" prefWidth="60.0" style="-fx-border-radius: 5px; -fx-background-color: #07AD8C;" text="Login" />
+               <JFXButton fx:id="cancel" layoutX="302.0" layoutY="326.0" prefHeight="30.0" prefWidth="60.0" style="-fx-border-radius: 5px; -fx-background-color: #07AD8C;" text="Cancel" />
+               <Text fx:id="err" fill="RED" layoutX="195.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username or mot de passe incorrect" />
+            </children></AnchorPane>
+      </Pane>
+      <Pane fx:id="produitsPane">
+         <Pane prefHeight="70.0" prefWidth="1010.0" style="-fx-background-color: #07AD8C;" />
+         <Pane layoutY="508.0" prefHeight="70.0" prefWidth="1010.0" style="-fx-background-color: #07AD8C;" />
+         <Pane layoutY="70.0" prefHeight="439.0" prefWidth="399.0" style="-fx-background-color: #C0C0C0;">
+            <children>
+               <ImageView fitHeight="186.0" fitWidth="247.0" layoutX="76.0" layoutY="80.0">
+                  <image>
+                     <Image url="@../../imgs/IMG-20200424-WA0050-removebg-preview1.png" />
+                  </image>
+               </ImageView>
+               <Text layoutX="118.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Put Client First" textAlignment="CENTER" wrappingWidth="162.13671875">
+                  <font>
+                     <Font name="SansSerif Regular" size="20.0" />
+                  </font>
+               </Text>
+            </children>
+         </Pane>
+         <AnchorPane layoutX="399.0" layoutY="70.0" prefHeight="439.0" prefWidth="610.0">
+            <children>
+               <TableView fx:id="tableProduits" layoutX="-2.0" layoutY="-2.0" prefHeight="439.0" prefWidth="586.0">
+                  <columns>
+                     <TableColumn fx:id="idCol" prefWidth="75.0" text="ID" />
+                     <TableColumn fx:id="nomCol" prefWidth="290.0000915527344" text="Nom" />
+                     <TableColumn fx:id="prixCol" minWidth="0.0" prefWidth="112.6666259765625" text="Prix" />
+                     <TableColumn fx:id="quantiteCol" prefWidth="102.6666259765625" text="Quantite" />
+                  </columns>
+               </TableView>
+               <JFXButton fx:id="cancelP" layoutX="496.0" layoutY="383.0" prefHeight="30.0" prefWidth="60.0" style="-fx-border-radius: 5px; -fx-background-color: #07AD8C;" text="Cancel" />
+            </children></AnchorPane>
+      </Pane>
+   </children>
+</AnchorPane>
